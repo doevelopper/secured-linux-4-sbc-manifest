@@ -4,12 +4,12 @@
 	<remote name="linaro-swg"     fetch="https://github.com/linaro-swg" />
 	<remote name="optee"          fetch="https://github.com/OP-TEE" />
         <remote name="raspberrypi"    fetch="https://github.com/raspberrypi" />
-        <remote name="doevelopper"    fetch="https://github.com/doevelopper" />
+	<remote name="ahl"            fetch="https://github.com/doevelopper" />
 
 
 	<include name="common.xml" />
 
-	<project path="build"                name="doevelopper/secured-linux-4-sbc-build.git" revision="feature/upgrade-gcc-compiler" remote="doevelopper"/>
+	<project path="build"                name="secured-linux-4-sbc-build.git"         remote="ahl" revision="667c277cedb60e294dc4eb016a84a84fa72e75ae">
                 <linkfile src="rpi3.mk"                dest="build/Makefile" />
                 <linkfile src="rpi3/debugger/pi3.cfg"  dest="build/pi3.cfg" />
         </project>
