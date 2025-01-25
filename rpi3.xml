@@ -13,5 +13,5 @@
         <!-- Misc gits -->
         <project path="firmware"             name="raspberrypi/firmware.git"              revision="refs/tags/1.20241126" clone-depth="1" />
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.12" clone-depth="1" remote="tfo"/>
-        <project path="u-boot"               name="u-boot/u-boot.git"                     revision="refs/tags/v2026.01" clone-depth="1" />
+        <project path="u-boot"               name="u-boot/u-boot.git"                     revision="refs/tags/v2025.01" clone-depth="1" />
 </manifest>
