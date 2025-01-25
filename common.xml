@@ -6,12 +6,17 @@
         <!-- OP-TEE gits -->
         <project path="optee_client"         name="OP-TEE/optee_client.git" />
         <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_ftpm"           name="OP-TEE/optee_ftpm.git" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
 
         <!-- linaro-swg gits -->
-        <project path="linux"                name="linaro-swg/linux.git"                  revision="optee" clone-depth="1" />
+        <project path="linux"                name="raspberrypi/linux.git"                  revision="rpi-6.12.y" clone-depth="1" />
         <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
 
         <!-- buildroot git -->
-        <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2023.11.1" clone-depth="1" />
+        <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2024.11.1" clone-depth="1" />
+
+        <!-- fTPM implementation -->
+        <project path="ms-tpm-20-ref"        name="microsoft/ms-tpm-20-ref"               revision="ee21db0a941decd3cac67925ea3310873af60ab3" clone-depth="1" />
+
 </manifest>
